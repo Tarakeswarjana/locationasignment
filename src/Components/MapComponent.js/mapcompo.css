@@ -32,7 +32,9 @@
   }  
   .map{
     width: 100%;
-    height:80vh
+    height:80vh;
+    z-index: 9;
+    padding-top: 3rem;
    
   }
   .loaderclass{
@@ -41,4 +43,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .ol-zoom{
+    background-color: rgb(250, 247, 247);
+ max-width: 2rem;
+  }
+  .ol-rotate{
+    display: none;
+  }
+  .ol-rotate-reset{
+    display: none;
+  }
+  .ol-compass{
+    display: none;
+  }
+  /* .ol-attribution ol-unselectable ol-control ol-uncollapsible ol-collapsed */
+  .ol-attribution{
+    display: none;
   }
